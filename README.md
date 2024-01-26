@@ -1,3 +1,5 @@
+![image](https://github.com/priyanshum003/mern-jwt-auth/assets/80619390/092f9bf7-0e7d-4711-bbbf-15f83f0d9fba)
+
 # MERN JWT Auth
 
 This is a full-stack web application built with MongoDB, Express.js, React.js, and Node.js (MERN stack). It uses JSON Web Tokens (JWT) for authentication and Redux for state management.
@@ -39,19 +41,19 @@ JWT_SECRET="your_jwt_secret_key"
 TOKEN_EXPIRATION="expiration"
 NODE_ENV="your_developement_enviroment"
 ```
-4. Create a .env file in the client directory and add any environment variables needed for the client, like this:
+5. Create a .env file in the client directory and add any environment variables needed for the client, like this:
 
 ```env
 VITE_API_URL="your_backend_api_url"
 ```
 
-5. Start the backend server: 
+6. Start the backend server: 
 `cd server` && `npm start` or `cd server` && `yarn start`
 
-6. In a new terminal window, start the frontend server: 
+7. In a new terminal window, start the frontend server: 
 `cd client` && `npm start` or `cd client` && `yarn start`
 
-7. Open your browser and visit `http://localhost:<Port>`
+8. Open your browser and visit `http://localhost:<Port>`
 
 
 
